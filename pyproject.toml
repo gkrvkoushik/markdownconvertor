@@ -1,0 +1,10 @@
+[project]
+name = "markitdown-app"
+version = "0.1.0"
+description = "Universal file to Markdown converter"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "markitdown[all]>=0.1.0",
+    "streamlit>=1.40.0",
+]
