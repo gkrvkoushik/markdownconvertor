@@ -3,7 +3,7 @@ import os
 import streamlit as st
 from markitdown import MarkItDown, StreamInfo
 
-MAX_FILE_SIZE_MB = 50
+MAX_FILE_SIZE_MB = 150
 
 st.set_page_config(page_title="Universal File to Markdown", page_icon="📄", layout="centered")
 
