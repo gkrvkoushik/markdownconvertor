@@ -1,8 +1,41 @@
 [server]
 maxUploadSize = 150
+enableStaticServing = false
 
 [browser]
 gatherUsageStats = false
 
 [runner]
 fastReruns = true
+
+[theme]
+primaryColor = "#e8403a"
+showWidgetBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.875rem"
+baseFontSize = 14
+baseFontWeight = 400
+headingFontSizes = ["32px", "26px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+linkUnderline = true
+
+[theme.light]
+primaryColor = "#e8403a"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+codeBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+linkColor = "#e8403a"
+borderColor = "#E2E8F0"
+
+[theme.dark]
+primaryColor = "#ef4444"
+backgroundColor = "#0F172A"
+secondaryBackgroundColor = "#1E293B"
+codeBackgroundColor = "#1E293B"
+textColor = "#F8FAFC"
+linkColor = "#f87171"
+borderColor = "#334155"
